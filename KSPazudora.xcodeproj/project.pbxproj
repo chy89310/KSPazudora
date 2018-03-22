@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B9F7DDA1EEEF8FC009C13A5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F7DD91EEEF8FC009C13A5 /* Util.swift */; };
+		4B9F7DDC1EEEF932009C13A5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F7DDB1EEEF932009C13A5 /* Config.swift */; };
+		4BA6EE0D1EE87B7B0098C4DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6EE0C1EE87B7B0098C4DA /* AppDelegate.swift */; };
+		4BA6EE171EE87B7B0098C4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6EE161EE87B7B0098C4DA /* Assets.xcassets */; };
+		4BA6EE251EE87B7B0098C4DA /* KSPazudoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6EE241EE87B7B0098C4DA /* KSPazudoraTests.swift */; };
+		4BA6EE301EE87B7B0098C4DA /* KSPazudoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6EE2F1EE87B7B0098C4DA /* KSPazudoraUITests.swift */; };
+		4BA6EE7E1EE87D510098C4DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6EE7D1EE87D510098C4DA /* ViewController.swift */; };
+		4BA6EE831EE87D730098C4DA /* KSPazudora.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6EE811EE87D730098C4DA /* KSPazudora.xcdatamodeld */; };
+		4BA6EE871EE87D8E0098C4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6EE851EE87D8E0098C4DA /* LaunchScreen.storyboard */; };
+		4BA6EE881EE87D8E0098C4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6EE861EE87D8E0098C4DA /* Main.storyboard */; };
+		4BDF650A1F124471003230A1 /* ApiUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF65091F124471003230A1 /* ApiUtil.swift */; };
+		4BDF650C1F124531003230A1 /* ApiUtil+Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF650B1F124531003230A1 /* ApiUtil+Define.swift */; };
+		4BDF650E1F124559003230A1 /* Api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BDF650D1F124559003230A1 /* Api.plist */; };
+		6E20038A7EA2EEF6265EC694 /* Pods_KSPazudoraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1D17278628FC4D6E05174B /* Pods_KSPazudoraUITests.framework */; };
+		AE6E6E47D0A2DB1187304D15 /* Pods_KSPazudoraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBCCB2BBD9C066918FE8514 /* Pods_KSPazudoraTests.framework */; };
+		E259CBE4AF8CC4A22AADB53F /* Pods_KSPazudora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA619E41076DE7410FF3CA06 /* Pods_KSPazudora.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BA6EE211EE87B7B0098C4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BA6EE011EE87B7B0098C4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA6EE081EE87B7B0098C4DA;
+			remoteInfo = KSPazudora;
+		};
+		4BA6EE2C1EE87B7B0098C4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BA6EE011EE87B7B0098C4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA6EE081EE87B7B0098C4DA;
+			remoteInfo = KSPazudora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418B7880463B205F1B39FA54 /* Pods-KSPazudoraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPazudoraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSPazudoraTests/Pods-KSPazudoraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B9F7DD91EEEF8FC009C13A5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		4B9F7DDB1EEEF932009C13A5 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		4BA6EE091EE87B7B0098C4DA /* KSPazudora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSPazudora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA6EE0C1EE87B7B0098C4DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BA6EE161EE87B7B0098C4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BA6EE1B1EE87B7B0098C4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA6EE201EE87B7B0098C4DA /* KSPazudoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSPazudoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA6EE241EE87B7B0098C4DA /* KSPazudoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSPazudoraTests.swift; sourceTree = "<group>"; };
+		4BA6EE261EE87B7B0098C4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA6EE2B1EE87B7B0098C4DA /* KSPazudoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSPazudoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA6EE2F1EE87B7B0098C4DA /* KSPazudoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSPazudoraUITests.swift; sourceTree = "<group>"; };
+		4BA6EE311EE87B7B0098C4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA6EE7D1EE87D510098C4DA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BA6EE821EE87D730098C4DA /* KSPazudora.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KSPazudora.xcdatamodel; sourceTree = "<group>"; };
+		4BA6EE851EE87D8E0098C4DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BA6EE861EE87D8E0098C4DA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4BDF65091F124471003230A1 /* ApiUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUtil.swift; sourceTree = "<group>"; };
+		4BDF650B1F124531003230A1 /* ApiUtil+Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiUtil+Define.swift"; sourceTree = "<group>"; };
+		4BDF650D1F124559003230A1 /* Api.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Api.plist; sourceTree = "<group>"; };
+		8CBCCB2BBD9C066918FE8514 /* Pods_KSPazudoraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSPazudoraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1033228AA9D8598BD48B203 /* Pods-KSPazudora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPazudora.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSPazudora/Pods-KSPazudora.release.xcconfig"; sourceTree = "<group>"; };
+		A54783F4C0CB45CD9DFFEA6F /* Pods-KSPazudoraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPazudoraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSPazudoraUITests/Pods-KSPazudoraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1D220C46A43261BBE12D70D /* Pods-KSPazudoraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPazudoraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSPazudoraUITests/Pods-KSPazudoraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1D17278628FC4D6E05174B /* Pods_KSPazudoraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSPazudoraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4153DE366F7D579D825C4E4 /* Pods-KSPazudora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPazudora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSPazudora/Pods-KSPazudora.debug.xcconfig"; sourceTree = "<group>"; };
+		D30AF9376667EEAE0B743252 /* Pods-KSPazudoraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPazudoraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSPazudoraTests/Pods-KSPazudoraTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA619E41076DE7410FF3CA06 /* Pods_KSPazudora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSPazudora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BA6EE061EE87B7B0098C4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E259CBE4AF8CC4A22AADB53F /* Pods_KSPazudora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA6EE1D1EE87B7B0098C4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6E6E47D0A2DB1187304D15 /* Pods_KSPazudoraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA6EE281EE87B7B0098C4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E20038A7EA2EEF6265EC694 /* Pods_KSPazudoraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43674C7EDADF74BD131D4D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4153DE366F7D579D825C4E4 /* Pods-KSPazudora.debug.xcconfig */,
+				A1033228AA9D8598BD48B203 /* Pods-KSPazudora.release.xcconfig */,
+				418B7880463B205F1B39FA54 /* Pods-KSPazudoraTests.debug.xcconfig */,
+				D30AF9376667EEAE0B743252 /* Pods-KSPazudoraTests.release.xcconfig */,
+				B1D220C46A43261BBE12D70D /* Pods-KSPazudoraUITests.debug.xcconfig */,
+				A54783F4C0CB45CD9DFFEA6F /* Pods-KSPazudoraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BA6EE001EE87B7B0098C4DA = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE0B1EE87B7B0098C4DA /* KSPazudora */,
+				4BA6EE231EE87B7B0098C4DA /* KSPazudoraTests */,
+				4BA6EE2E1EE87B7B0098C4DA /* KSPazudoraUITests */,
+				4BA6EE0A1EE87B7B0098C4DA /* Products */,
+				43674C7EDADF74BD131D4D6E /* Pods */,
+				88CDEDDD3A82D04446C605EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BA6EE0A1EE87B7B0098C4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE091EE87B7B0098C4DA /* KSPazudora.app */,
+				4BA6EE201EE87B7B0098C4DA /* KSPazudoraTests.xctest */,
+				4BA6EE2B1EE87B7B0098C4DA /* KSPazudoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA6EE0B1EE87B7B0098C4DA /* KSPazudora */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE0C1EE87B7B0098C4DA /* AppDelegate.swift */,
+				4BA6EE1B1EE87B7B0098C4DA /* Info.plist */,
+				4BA6EE161EE87B7B0098C4DA /* Assets.xcassets */,
+				4BA6EE7F1EE87D660098C4DA /* Util */,
+				4BA6EE801EE87D730098C4DA /* Model */,
+				4BA6EE841EE87D8E0098C4DA /* View */,
+				4BA6EE7C1EE87D510098C4DA /* Controller */,
+			);
+			path = KSPazudora;
+			sourceTree = "<group>";
+		};
+		4BA6EE231EE87B7B0098C4DA /* KSPazudoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE241EE87B7B0098C4DA /* KSPazudoraTests.swift */,
+				4BA6EE261EE87B7B0098C4DA /* Info.plist */,
+			);
+			path = KSPazudoraTests;
+			sourceTree = "<group>";
+		};
+		4BA6EE2E1EE87B7B0098C4DA /* KSPazudoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE2F1EE87B7B0098C4DA /* KSPazudoraUITests.swift */,
+				4BA6EE311EE87B7B0098C4DA /* Info.plist */,
+			);
+			path = KSPazudoraUITests;
+			sourceTree = "<group>";
+		};
+		4BA6EE7C1EE87D510098C4DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE7D1EE87D510098C4DA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BA6EE7F1EE87D660098C4DA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF65041F12437D003230A1 /* ApiUtil */,
+				4B9F7DDB1EEEF932009C13A5 /* Config.swift */,
+				4B9F7DD91EEEF8FC009C13A5 /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4BA6EE801EE87D730098C4DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE811EE87D730098C4DA /* KSPazudora.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BA6EE841EE87D8E0098C4DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6EE851EE87D8E0098C4DA /* LaunchScreen.storyboard */,
+				4BA6EE861EE87D8E0098C4DA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BDF65041F12437D003230A1 /* ApiUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF65091F124471003230A1 /* ApiUtil.swift */,
+				4BDF650B1F124531003230A1 /* ApiUtil+Define.swift */,
+				4BDF650D1F124559003230A1 /* Api.plist */,
+			);
+			path = ApiUtil;
+			sourceTree = "<group>";
+		};
+		88CDEDDD3A82D04446C605EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA619E41076DE7410FF3CA06 /* Pods_KSPazudora.framework */,
+				8CBCCB2BBD9C066918FE8514 /* Pods_KSPazudoraTests.framework */,
+				BC1D17278628FC4D6E05174B /* Pods_KSPazudoraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BA6EE081EE87B7B0098C4DA /* KSPazudora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA6EE341EE87B7B0098C4DA /* Build configuration list for PBXNativeTarget "KSPazudora" */;
+			buildPhases = (
+				DA2CB15091DE6456A194E1C6 /* [CP] Check Pods Manifest.lock */,
+				4BA6EE051EE87B7B0098C4DA /* Sources */,
+				4BA6EE061EE87B7B0098C4DA /* Frameworks */,
+				4BA6EE071EE87B7B0098C4DA /* Resources */,
+				B6911412E0B2DC606664A430 /* [CP] Embed Pods Frameworks */,
+				C97132BEEBC203C937D70D36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSPazudora;
+			productName = KSPazudora;
+			productReference = 4BA6EE091EE87B7B0098C4DA /* KSPazudora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BA6EE1F1EE87B7B0098C4DA /* KSPazudoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA6EE371EE87B7B0098C4DA /* Build configuration list for PBXNativeTarget "KSPazudoraTests" */;
+			buildPhases = (
+				B34B176DE51CB1290D869869 /* [CP] Check Pods Manifest.lock */,
+				4BA6EE1C1EE87B7B0098C4DA /* Sources */,
+				4BA6EE1D1EE87B7B0098C4DA /* Frameworks */,
+				4BA6EE1E1EE87B7B0098C4DA /* Resources */,
+				258C99E32D4F2450C0E80282 /* [CP] Embed Pods Frameworks */,
+				0096A451C5B241561E0C033A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BA6EE221EE87B7B0098C4DA /* PBXTargetDependency */,
+			);
+			name = KSPazudoraTests;
+			productName = KSPazudoraTests;
+			productReference = 4BA6EE201EE87B7B0098C4DA /* KSPazudoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BA6EE2A1EE87B7B0098C4DA /* KSPazudoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA6EE3A1EE87B7B0098C4DA /* Build configuration list for PBXNativeTarget "KSPazudoraUITests" */;
+			buildPhases = (
+				2BF6A22AD15CC8CC06413D03 /* [CP] Check Pods Manifest.lock */,
+				4BA6EE271EE87B7B0098C4DA /* Sources */,
+				4BA6EE281EE87B7B0098C4DA /* Frameworks */,
+				4BA6EE291EE87B7B0098C4DA /* Resources */,
+				29A34FB8DCFA65AE68513898 /* [CP] Embed Pods Frameworks */,
+				8F6506D9943215CE811A27B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BA6EE2D1EE87B7B0098C4DA /* PBXTargetDependency */,
+			);
+			name = KSPazudoraUITests;
+			productName = KSPazudoraUITests;
+			productReference = 4BA6EE2B1EE87B7B0098C4DA /* KSPazudoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BA6EE011EE87B7B0098C4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kevinsumios;
+				TargetAttributes = {
+					4BA6EE081EE87B7B0098C4DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					4BA6EE1F1EE87B7B0098C4DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BA6EE081EE87B7B0098C4DA;
+					};
+					4BA6EE2A1EE87B7B0098C4DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BA6EE081EE87B7B0098C4DA;
+					};
+				};
+			};
+			buildConfigurationList = 4BA6EE041EE87B7B0098C4DA /* Build configuration list for PBXProject "KSPazudora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BA6EE001EE87B7B0098C4DA;
+			productRefGroup = 4BA6EE0A1EE87B7B0098C4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA6EE081EE87B7B0098C4DA /* KSPazudora */,
+				4BA6EE1F1EE87B7B0098C4DA /* KSPazudoraTests */,
+				4BA6EE2A1EE87B7B0098C4DA /* KSPazudoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BA6EE071EE87B7B0098C4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA6EE881EE87D8E0098C4DA /* Main.storyboard in Resources */,
+				4BDF650E1F124559003230A1 /* Api.plist in Resources */,
+				4BA6EE871EE87D8E0098C4DA /* LaunchScreen.storyboard in Resources */,
+				4BA6EE171EE87B7B0098C4DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA6EE1E1EE87B7B0098C4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA6EE291EE87B7B0098C4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0096A451C5B241561E0C033A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudoraTests/Pods-KSPazudoraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		258C99E32D4F2450C0E80282 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudoraTests/Pods-KSPazudoraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29A34FB8DCFA65AE68513898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudoraUITests/Pods-KSPazudoraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF6A22AD15CC8CC06413D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSPazudoraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6506D9943215CE811A27B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudoraUITests/Pods-KSPazudoraUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34B176DE51CB1290D869869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSPazudoraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6911412E0B2DC606664A430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudora/Pods-KSPazudora-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudora/Pods-KSPazudora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97132BEEBC203C937D70D36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPazudora/Pods-KSPazudora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2CB15091DE6456A194E1C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSPazudora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BA6EE051EE87B7B0098C4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDF650A1F124471003230A1 /* ApiUtil.swift in Sources */,
+				4BA6EE7E1EE87D510098C4DA /* ViewController.swift in Sources */,
+				4BA6EE0D1EE87B7B0098C4DA /* AppDelegate.swift in Sources */,
+				4B9F7DDC1EEEF932009C13A5 /* Config.swift in Sources */,
+				4BA6EE831EE87D730098C4DA /* KSPazudora.xcdatamodeld in Sources */,
+				4B9F7DDA1EEEF8FC009C13A5 /* Util.swift in Sources */,
+				4BDF650C1F124531003230A1 /* ApiUtil+Define.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA6EE1C1EE87B7B0098C4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA6EE251EE87B7B0098C4DA /* KSPazudoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA6EE271EE87B7B0098C4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA6EE301EE87B7B0098C4DA /* KSPazudoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BA6EE221EE87B7B0098C4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BA6EE081EE87B7B0098C4DA /* KSPazudora */;
+			targetProxy = 4BA6EE211EE87B7B0098C4DA /* PBXContainerItemProxy */;
+		};
+		4BA6EE2D1EE87B7B0098C4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BA6EE081EE87B7B0098C4DA /* KSPazudora */;
+			targetProxy = 4BA6EE2C1EE87B7B0098C4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BA6EE321EE87B7B0098C4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BA6EE331EE87B7B0098C4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BA6EE351EE87B7B0098C4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4153DE366F7D579D825C4E4 /* Pods-KSPazudora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSPazudora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.template;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BA6EE361EE87B7B0098C4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1033228AA9D8598BD48B203 /* Pods-KSPazudora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSPazudora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.template;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4BA6EE381EE87B7B0098C4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418B7880463B205F1B39FA54 /* Pods-KSPazudoraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSPazudoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.template.KSPazudoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSPazudora.app/KSPazudora";
+			};
+			name = Debug;
+		};
+		4BA6EE391EE87B7B0098C4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30AF9376667EEAE0B743252 /* Pods-KSPazudoraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSPazudoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.template.KSPazudoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSPazudora.app/KSPazudora";
+			};
+			name = Release;
+		};
+		4BA6EE3B1EE87B7B0098C4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D220C46A43261BBE12D70D /* Pods-KSPazudoraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				INFOPLIST_FILE = KSPazudoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.template.KSPazudoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KSPazudora;
+			};
+			name = Debug;
+		};
+		4BA6EE3C1EE87B7B0098C4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54783F4C0CB45CD9DFFEA6F /* Pods-KSPazudoraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				INFOPLIST_FILE = KSPazudoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.template.KSPazudoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KSPazudora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BA6EE041EE87B7B0098C4DA /* Build configuration list for PBXProject "KSPazudora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA6EE321EE87B7B0098C4DA /* Debug */,
+				4BA6EE331EE87B7B0098C4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA6EE341EE87B7B0098C4DA /* Build configuration list for PBXNativeTarget "KSPazudora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA6EE351EE87B7B0098C4DA /* Debug */,
+				4BA6EE361EE87B7B0098C4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA6EE371EE87B7B0098C4DA /* Build configuration list for PBXNativeTarget "KSPazudoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA6EE381EE87B7B0098C4DA /* Debug */,
+				4BA6EE391EE87B7B0098C4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA6EE3A1EE87B7B0098C4DA /* Build configuration list for PBXNativeTarget "KSPazudoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA6EE3B1EE87B7B0098C4DA /* Debug */,
+				4BA6EE3C1EE87B7B0098C4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BA6EE811EE87D730098C4DA /* KSPazudora.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BA6EE821EE87D730098C4DA /* KSPazudora.xcdatamodel */,
+			);
+			currentVersion = 4BA6EE821EE87D730098C4DA /* KSPazudora.xcdatamodel */;
+			path = KSPazudora.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BA6EE011EE87B7B0098C4DA /* Project object */;
+}
